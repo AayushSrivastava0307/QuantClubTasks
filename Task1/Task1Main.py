@@ -41,8 +41,8 @@ def creatematrix(rows, cols, initial_value):
 
 # board randomizer you may change the range of x and y to get random cells in that particular area of the board
 currentboard = creatematrix(cols, rows, 0)
-for x in range(3, 7):
-    for y in range(17, 23):
+for x in range(5, 10):
+    for y in range(15, 25):
         currentboard[x][y] = random.randint(0, 1) # 0 is dead 1 is alive so in our random fxn 50-50 chance of dead or alive
 
 # Function to count neighbors
